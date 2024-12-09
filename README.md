@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```javascript
-streamlit run app.py
+streamlit run main.py
 
 ```
 
