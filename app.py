@@ -44,7 +44,8 @@ mae = mean_absolute_error(y_test, y_pred)
 rmse = mean_squared_error(y_test, y_pred, squared=False)
 
 # Menampilkan hasil evaluasi
-st.title('Prediksi Penjualan Parfum')
+st.title('Prediksi Penjualan Parfum ')
+st.subheader("Regresi Linear Berganda")
 # st.write(f"**MAE (Mean Absolute Error):** {mae:.2f}")
 # st.write(f"**RMSE (Root Mean Squared Error):** {rmse:.2f}")
 st.write(f"**Koefisien regresi:** {model.coef_}")
